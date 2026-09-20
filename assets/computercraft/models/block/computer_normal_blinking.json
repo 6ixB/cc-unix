@@ -4,7 +4,7 @@
 		"side": "computercraft:block/computer_normal_side",
 		"top": "computercraft:block/computer_normal_top",
 		"bottom": "computercraft:block/bottom",
-		"front": "computercraft:block/computer_normal_front_on",
+		"front": "computercraft:block/computer_normal_front_blink",
 		"back": "computercraft:block/computer_normal_back_on"
 	},
 	"elements": [
