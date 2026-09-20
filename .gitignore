@@ -1,0 +1,26 @@
+# Blockbench
+*.bbmodel
+.blockbench/
+
+# Minecraft / local development
+*.log
+crash-reports/
+logs/
+saves/
+resourcepacks/
+shaderpacks/
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / editor
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+~*
