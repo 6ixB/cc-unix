@@ -1,6 +1,4 @@
 {
-	"format_version": "26.3",
-	"credit": "Made with Blockbench",
 	"render_type": "cutout",
 	"textures": {
 		"particle": "computercraft:block/monitors/normal/monitor_normal_22",
