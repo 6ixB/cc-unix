@@ -5,7 +5,7 @@
 		"top": "computercraft:block/computer_advanced_top",
 		"bottom": "computercraft:block/bottom",
 		"front": "computercraft:block/computer_advanced_front_blink",
-		"back": "computercraft:block/computer_advanced_back_on"
+		"back": "computercraft:block/computer_back_on"
 	},
 	"elements": [
 		{
@@ -15,9 +15,9 @@
 				"north": {"uv": [0, 0, 16, 16], "texture": "#front"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#back"},
-				"west": {"uv": [16, 0, 0, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
-				"down": {"uv": [16, 0, 0, 16], "texture": "#bottom"}
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
 			}
 		}
 	]
