@@ -1,0 +1,22 @@
+{
+  "name": "unix",
+  "version": "1.0.0",
+  "description": "A Modern Industrial Computer Craft Resource Pack",
+  "homepage": "https://github.com/6ixB/unix-cct-resource-pack#readme",
+  "bugs": {
+    "url": "https://github.com/6ixB/unix-cct-resource-pack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/6ixB/unix-cct-resource-pack.git"
+  },
+  "license": "ISC",
+  "author": "6ixB",
+  "scripts": {
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.9.8"
+  }
+}
