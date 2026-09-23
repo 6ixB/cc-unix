@@ -1,8 +1,7 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "all": "computercraft:block/full_wired_modem_face_on",
-    "particle": "computercraft:block/wired_modem_face_on"
+    "all": "computercraft:block/full_wired_modem_face_on"
   },
   "elements": [
     {
