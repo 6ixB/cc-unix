@@ -90,16 +90,17 @@ Files ending in `_blockbench.json` (mostly monitor and modem variants) are autho
 
 ## Releasing
 
-Releases are cut from tags and follow the Modrinth convention: version
-`<pack>+mc<mc>` (semver pack version with the tested Minecraft version as
-build metadata), file `unix-<pack>+mc<mc>.zip`, e.g. version `1.0.0+mc1.21.1`
-shipped as `unix-1.0.0+mc1.21.1.zip`. Tags carry a `v` prefix, e.g.
-`v1.0.0+mc1.21.1`. Pushing a matching tag triggers the Release workflow,
-which runs `npm run build` and publishes the ZIP to a GitHub Release.
+Releases are cut from tags. Tag format is `v<pack>-mc<mc>` (pack version,
+then tested Minecraft version), e.g. `v1.0.0-mc1.21.1`. Pushing a matching
+tag triggers the Release workflow, which runs `npm run build` and publishes
+the ZIP to a GitHub Release. Filenames follow the Modrinth convention
+(`<pack>+mc<mc>` build metadata, lowercase slug), so the example tag ships
+`unix-1.0.0+mc1.21.1.zip`. Tags use `-mc` because `+` is invalid in GitHub
+tag filter patterns.
 
 ```bash
-git tag v1.0.0+mc1.21.1
-git push origin main v1.0.0+mc1.21.1
+git tag v1.0.0-mc1.21.1
+git push origin main v1.0.0-mc1.21.1
 ```
 
 Keep `package.json` version and the tag's pack version in sync.
