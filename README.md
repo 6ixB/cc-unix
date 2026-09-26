@@ -2,7 +2,7 @@
 
 A modern industrial-tech themed resource pack for [ComputerCraft: Tweaked](https://modrinth.com/mod/cc-tweaked).
 
-Unix reskins ComputerCraft's computers, turtles, monitors, and peripherals with a clean, industrial look — dark casings, consistent accent colors, and vanilla-friendly details.
+Unix reskins ComputerCraft's computers, turtles, monitors, and peripherals with a clean, industrial look — dark casings, consistent accent colors, and vanilla-friendly details. The pack aims to align CC: Tweaked textures with the new Advanced Peripherals textures and Mekanism machine blocks, so mixed setups look cohesive.
 
 ![pack icon](pack.png)
 
@@ -113,3 +113,5 @@ Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You ar
 
 - Author: [6ixB](https://github.com/6ixB)
 - Base mod: ComputerCraft: Tweaked — all block/item IDs and original assets belong to their respective authors.
+- Inspiration: [ComputerCraft GreenTech](https://modrinth.com/resourcepack/computercraft-greentech) by PirateSee — some textures draw inspiration from this pack.
+- Bundled work: [Create ComputerCraft](https://modrinth.com/resourcepack/create-computercraft) by End_Rage — some textures from this pack are included directly.
