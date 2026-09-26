@@ -12,11 +12,13 @@ const BLOCKBENCH_SUFFIX = "_blockbench.json";
 
 const EXCLUDED_FILES = new Set([
   ".gitignore",
+  "README.md",
   "build.ts",
   "tsconfig.json",
   "package.json",
   "package-lock.json",
 ]);
+// NOTE: LICENSE is intentionally NOT excluded — it ships at the ZIP root.
 
 const EXCLUDED_DIRECTORIES = new Set(["out", ".git", "node_modules"]);
 

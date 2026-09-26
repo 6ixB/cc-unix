@@ -1,7 +1,7 @@
 {
   "pack": {
-    "pack_format": 61,
-    "supported_formats": [3, 61],
+    "pack_format": 34,
+    "supported_formats": [3, 34],
     "description": "A modern industrial-tech themed ComputerCraft."
   }
 }

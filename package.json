@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/6ixB/unix-cct-resource-pack.git"
   },
-  "license": "ISC",
+  "license": "CC-BY-4.0",
   "author": "6ixB",
   "type": "module",
   "scripts": {
