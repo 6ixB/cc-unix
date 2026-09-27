@@ -17,15 +17,21 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "build": "node --experimental-strip-types build.ts",
-    "clean": "node -e \"require('fs').rmSync('out', { recursive: true, force: true })\""
+    "clean": "node -e \"require('fs').rmSync('out', { recursive: true, force: true })\"",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@types/archiver": "^8.0.0",
     "@types/node": "^26.6.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
     "prettier": "^3.9.8",
     "typescript": "^7.0.2"
   },
   "dependencies": {
     "archiver": "^8.0.0"
+  },
+  "lint-staged": {
+    "*.{ts,json,md,yml,yaml,mcmeta}": "prettier --write"
   }
 }
