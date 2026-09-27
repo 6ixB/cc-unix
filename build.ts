@@ -13,6 +13,7 @@ const BLOCKBENCH_SUFFIX = "_blockbench.json";
 const EXCLUDED_FILES = new Set([
   ".gitignore",
   "README.md",
+  "pack_no_background.png",
   "build.ts",
   "tsconfig.json",
   "package.json",

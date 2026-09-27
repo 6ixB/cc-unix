@@ -1,10 +1,12 @@
-# Unix
+<p align="center">
+  <img src="pack_no_background.png" alt="pack icon" width="128" height="128">
+</p>
+
+<h1 align="center">CC: Unix</h1>
 
 A modern industrial-tech themed resource pack for [ComputerCraft: Tweaked](https://modrinth.com/mod/cc-tweaked).
 
 Unix reskins ComputerCraft's computers, turtles, monitors, and peripherals with a clean, industrial look — dark casings, consistent accent colors, and vanilla-friendly details. The pack aims to align CC: Tweaked textures with the new Advanced Peripherals textures and Mekanism machine blocks, so mixed setups look cohesive.
-
-![pack icon](pack.png)
 
 ## Features
 
