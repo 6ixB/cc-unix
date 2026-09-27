@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="pack_no_background.png" alt="pack icon" width="128" height="128">
+  <img src="pack_no_background.png" alt="pack icon" width="200" height="200">
 </p>
 
 <h1 align="center">CC: Unix</h1>
