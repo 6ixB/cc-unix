@@ -23,6 +23,7 @@ Goal: Make resource pack shippable to Modrinth.
 ## Later
 
 - [ ] [release] Fill Modrinth project details and disclosures + publish
+- [ ] [release] Create gallery images of the resource pack for Modrinth project page
 
 ## Done (prune each release)
 
