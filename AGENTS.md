@@ -65,9 +65,8 @@ Run `npm run format` before every edit. `npm run format:check` must pass before 
 
 ## License / attribution
 
-- CC-BY-4.0. See `LICENSE`.
-- Credit 6ixB on share/adapt, even commercially.
-- Inspiration: ComputerCraft GreenTech by PirateSee. Bundled textures: Create ComputerCraft by End_Rage. Preserve attribution when touching those files.
+- CC-BY-4.0 covers original Unix work only. See `LICENSE`.
+- GreenTech-derived files (gui, printed media, pocket, cable — see `TODO.md` manifest) stay under MIT. Keep `LICENSE` Third-Party notice + file list in sync when touching those files.
 
 ## Git workflow
 

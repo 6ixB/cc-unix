@@ -107,11 +107,11 @@ Keep `package.json` version and the tag's pack version in sync.
 
 ## License
 
-Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to share and adapt, even commercially, as long as you credit 6ixB. See [LICENSE](LICENSE).
+Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the original Unix work. You are free to share and adapt, even commercially, as long as you credit 6ixB. Third-party files derived from ComputerCraft GreenTech remain under MIT — see [LICENSE](LICENSE) Third-Party Notices. See [LICENSE](LICENSE).
 
 ## Credits
 
 - Author: [6ixB](https://github.com/6ixB)
 - Base mod: ComputerCraft: Tweaked — all block/item IDs and original assets belong to their respective authors.
-- Inspiration: [ComputerCraft GreenTech](https://modrinth.com/resourcepack/computercraft-greentech) by PirateSee — some textures draw inspiration from this pack.
-- Bundled work: [Create ComputerCraft](https://modrinth.com/resourcepack/create-computercraft) by End_Rage — some textures from this pack are included directly.
+- Adapted work: [ComputerCraft GreenTech](https://modrinth.com/resourcepack/computercraft-greentech) by PirateSee (MIT) — GUI textures, printed media, pocket computer and cable textures/models derive from this pack. See LICENSE.
+- AI assistance was used for descriptions and developer tooling. All textures and models are human-created.
