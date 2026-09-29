@@ -10,10 +10,9 @@ Goal: Make resource pack shippable to Modrinth.
 - [ ] [textures] Redraw monitor textures
   - [ ] `textures/block/monitors/normal/*`
   - [ ] `textures/block/monitors/advanced/*`
-- [ ] [textures] Redraw floppy disk textures
-  - [ ] `textures/item/disk_frame.png`
-  - [ ] `textures/item/disk_colour.png`
-  - [ ] `textures/item/disk_colour_top.png`
+- [x] [textures] Redraw floppy disk textures
+  - [x] `textures/item/disk_frame.png`
+  - [x] `textures/item/disk_colour.png`
 
 ## Next
 
