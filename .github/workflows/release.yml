@@ -34,7 +34,7 @@ jobs:
           PACK="${TAG%%-mc*}"
           PACK="${PACK#v}"
           MC="${TAG##*-mc}"
-          SRC="out/Unix.zip"
+          SRC="out/unix.zip"
           # Modrinth file convention uses +mc in the filename even though
           # the tag uses -mc (+ is invalid in GitHub tag filter patterns).
           DEST="out/unix-${PACK}+mc${MC}.zip"

@@ -3,7 +3,7 @@ import fsSync from "node:fs";
 import path from "node:path";
 import { ZipArchive } from "archiver";
 
-const RESOURCE_PACK_FILE_NAME = "Unix.zip";
+const RESOURCE_PACK_FILE_NAME = "unix.zip";
 const ROOT_DIR = process.cwd();
 const OUT_DIR = path.join(ROOT_DIR, "out");
 const ZIP_FILE = path.join(OUT_DIR, RESOURCE_PACK_FILE_NAME);
@@ -18,10 +18,20 @@ const EXCLUDED_FILES = new Set([
   "tsconfig.json",
   "package.json",
   "package-lock.json",
+  ".prettierignore",
+  ".prettierrc",
+  "AGENTS.md",
+  "TODO.md",
 ]);
-// NOTE: LICENSE is intentionally NOT excluded — it ships at the ZIP root.
+// NOTE: LICENSE and CREDITS are intentionally NOT excluded — they ship at the ZIP root.
 
-const EXCLUDED_DIRECTORIES = new Set(["out", ".git", "node_modules"]);
+const EXCLUDED_DIRECTORIES = new Set([
+  "out",
+  ".git",
+  ".github",
+  ".husky",
+  "node_modules",
+]);
 
 /**
  * Recursively copies a directory while respecting excluded files
