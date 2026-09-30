@@ -4,9 +4,9 @@ Goal: Make resource pack shippable to Modrinth.
 
 ## Now
 
-- [ ] [textures] Redraw computer back side textures
-  - [ ] `textures/block/computer_back.png`
-  - [ ] `textures/block/computer_back_on.png` (+ `.mcmeta`)
+- [x] [textures] Redraw computer back side textures
+  - [x] `textures/block/computer_back.png`
+  - [x] `textures/block/computer_back_on.png` (+ `.mcmeta`)
 - [ ] [textures] Redraw monitor textures
   - [ ] `textures/block/monitors/normal/*`
   - [ ] `textures/block/monitors/advanced/*`
