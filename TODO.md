@@ -4,20 +4,8 @@ Goal: Make resource pack shippable to Modrinth.
 
 ## Now
 
-- [x] [textures] Redraw computer back side textures
-  - [x] `textures/block/computer_back.png`
-  - [x] `textures/block/computer_back_on.png` (+ `.mcmeta`)
-- [x] [textures] Redraw monitor textures
-  - [x] `textures/block/monitors/normal/*`
-  - [x] `textures/block/monitors/advanced/*`
-- [x] [textures] Redraw floppy disk textures
-  - [x] `textures/item/disk_frame.png`
-  - [x] `textures/item/disk_colour.png`
-
-## Next
-
-- [ ] [release] Confirm redraws match Unix design language; consistency check against other Unix textures
-- [ ] [release] `npm run format:check` + `npm run build`, in-game check, confirm ZIP has no `*_blockbench.json`
+- [x] [release] Confirm redraws match Unix design language; consistency check against other Unix textures
+- [x] [release] `npm run format:check` + `npm run build`, in-game check, confirm ZIP has no `*_blockbench.json`
 
 ## Later
 
