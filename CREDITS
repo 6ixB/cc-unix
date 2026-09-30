@@ -1,0 +1,44 @@
+Unix — A Modern Industrial ComputerCraft Resource Pack
+Credits
+==================================================
+
+Original Unix work
+--------------------------------------------------
+6ixB (https://github.com/6ixB/unix-cct-resource-pack)
+Copyright (c) 2026 6ixB. Licensed under CC BY 4.0.
+All original textures, models, and design.
+
+Third-party work (Texture Inspirations and Adaptations)
+--------------------------------------------------
+ComputerCraft GreenTech by PirateSee
+(https://modrinth.com/resourcepack/computercraft-greentech)
+Licensed under the MIT License. Copyright (c) 2025 PirateSee.
+  - assets/computercraft/textures/gui/* (borders, sidebars,
+    pocket bottoms, turtle GUIs, sprites)
+  - assets/computercraft/textures/item/printed_page.png,
+    printed_pages.png (unmodified), printed_book.png (adapted)
+  - assets/computercraft/textures/item/pocket_computer_*.png
+  - assets/computercraft/textures/block/cable_*.png,
+    assets/computercraft/models/block/cable_*.json,
+    assets/computercraft/models/item/cable.json,
+    assets/computercraft/blockstates/cable.json
+
+Create: ComputerCraft (CC: Tweaked) by End_Rage
+(https://www.curseforge.com/minecraft/texture-packs/create-computercraft)
+Inspiration only, no files adapted or redistributed.
+  - computer textures (assets/computercraft/textures/block/computer_*.png)
+  - monitor textures
+    (assets/computercraft/textures/block/monitors/normal/*,
+    assets/computercraft/textures/block/monitors/advanced/*)
+  - cable textures (assets/computercraft/textures/block/cable_*.png)
+
+Base mod
+--------------------------------------------------
+ComputerCraft: Tweaked — all block/item IDs and original assets
+belong to their respective authors.
+
+Notes
+--------------------------------------------------
+AI assistance was used for descriptions and developer tooling.
+All textures and models are human-created.
+See LICENSE for full license texts and third-party notices.

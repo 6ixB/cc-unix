@@ -74,6 +74,7 @@ npm run format:check  # prettier --check .
 ├── pack.mcmeta             # pack_format 34 (MC 1.21–1.21.1), description
 ├── pack.png                # pack icon
 ├── LICENSE                 # CC BY 4.0 — also shipped at ZIP root
+├── CREDITS                  # author credits — also shipped at ZIP root
 ├── build.ts                # resource-pack builder / zipper
 └── out/                    # build output (gitignored, contains Unix.zip)
 ```
@@ -109,11 +110,12 @@ Keep `package.json` version and the tag's pack version in sync.
 
 ## License
 
-Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the original Unix work. You are free to share and adapt, even commercially, as long as you credit 6ixB. Third-party files derived from ComputerCraft GreenTech remain under MIT — see [LICENSE](LICENSE) Third-Party Notices. See [LICENSE](LICENSE).
+Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the original Unix work. You are free to share and adapt, even commercially, as long as you credit 6ixB. Third-party files derived from ComputerCraft GreenTech remain under MIT — see [LICENSE](LICENSE) Third-Party Notices. See [LICENSE](LICENSE) and [CREDITS](CREDITS).
 
 ## Credits
 
 - Author: [6ixB](https://github.com/6ixB)
 - Base mod: ComputerCraft: Tweaked — all block/item IDs and original assets belong to their respective authors.
 - Adapted work: [ComputerCraft GreenTech](https://modrinth.com/resourcepack/computercraft-greentech) by PirateSee (MIT) — GUI textures, printed media, pocket computer and cable textures/models derive from this pack. See LICENSE.
+- Inspiration: [Create: ComputerCraft (CC: Tweaked)](https://www.curseforge.com/minecraft/texture-packs/create-computercraft) by End_Rage — computer, monitor, and cable textures inspired by this pack.
 - AI assistance was used for descriptions and developer tooling. All textures and models are human-created.

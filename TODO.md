@@ -4,11 +4,6 @@ Goal: Make resource pack shippable to Modrinth.
 
 ## Now
 
-- [x] [release] Confirm redraws match Unix design language; consistency check against other Unix textures
-- [x] [release] `npm run format:check` + `npm run build`, in-game check, confirm ZIP has no `*_blockbench.json`
-
-## Later
-
 - [ ] [release] Custom changelog per GitHub release (annotated tag message → release body, keep auto notes)
 - [ ] [release] Fill Modrinth project details and disclosures + publish
 - [ ] [release] Create gallery images of the resource pack for Modrinth project page
