@@ -6,7 +6,7 @@ Goal: Make resource pack shippable to Modrinth.
 
 - [ ] [release] Custom changelog per GitHub release (annotated tag message → release body, keep auto notes)
 - [ ] [release] Fill Modrinth project details and disclosures + publish
-- [ ] [release] Create gallery images of the resource pack for Modrinth project page
+- [x] [release] Create gallery images of the resource pack for Modrinth project page
 
 ## Done (prune each release)
 

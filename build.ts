@@ -31,6 +31,7 @@ const EXCLUDED_DIRECTORIES = new Set([
   ".github",
   ".husky",
   "node_modules",
+  "gallery",
 ]);
 
 /**
