@@ -55,7 +55,7 @@ This produces `out/Unix.zip`. The build script (`build.ts`):
 
 1. Copies `assets/`, `pack.mcmeta`, `pack.png`, and `LICENSE` into `out/`.
 2. Deletes all `*_blockbench.json` source files (Blockbench working copies kept in-repo but excluded from the pack).
-3. Zips the result to `out/Unix.zip` and cleans up intermediate files.
+3. Zips the result to `out/unix.zip` and cleans up intermediate files.
 
 Other scripts:
 
