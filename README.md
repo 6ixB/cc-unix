@@ -11,6 +11,9 @@ Unix reskins ComputerCraft's computers, turtles, monitors, and peripherals with 
 <p align="center">
   <img src="gallery/Featured.png" alt="pack overview">
 </p>
+<p align="center">
+  <img src="gallery/Creative Tab.png" alt="pack creative tab view">
+</p>
 
 ## Features
 
