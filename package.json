@@ -1,14 +1,14 @@
 {
-  "name": "unix",
+  "name": "cc-unix",
   "version": "1.0.0",
   "description": "A Modern Industrial Computer Craft Resource Pack",
-  "homepage": "https://github.com/6ixB/unix-cct-resource-pack#readme",
+  "homepage": "https://github.com/6ixB/cc-unix#readme",
   "bugs": {
-    "url": "https://github.com/6ixB/unix-cct-resource-pack/issues"
+    "url": "https://github.com/6ixB/cc-unix/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/6ixB/unix-cct-resource-pack.git"
+    "url": "git+https://github.com/6ixB/cc-unix.git"
   },
   "license": "CC-BY-4.0",
   "author": "6ixB",

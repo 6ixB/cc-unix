@@ -3,7 +3,7 @@ import fsSync from "node:fs";
 import path from "node:path";
 import { ZipArchive } from "archiver";
 
-const RESOURCE_PACK_FILE_NAME = "unix.zip";
+const RESOURCE_PACK_FILE_NAME = "cc-unix.zip";
 const ROOT_DIR = process.cwd();
 const OUT_DIR = path.join(ROOT_DIR, "out");
 const ZIP_FILE = path.join(OUT_DIR, RESOURCE_PACK_FILE_NAME);

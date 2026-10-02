@@ -51,11 +51,11 @@ npm install
 npm run build
 ```
 
-This produces `out/Unix.zip`. The build script (`build.ts`):
+This produces `out/cc-unix.zip`. The build script (`build.ts`):
 
 1. Copies `assets/`, `pack.mcmeta`, `pack.png`, and `LICENSE` into `out/`.
 2. Deletes all `*_blockbench.json` source files (Blockbench working copies kept in-repo but excluded from the pack).
-3. Zips the result to `out/unix.zip` and cleans up intermediate files.
+3. Zips the result to `out/cc-unix.zip` and cleans up intermediate files.
 
 Other scripts:
 
@@ -83,7 +83,7 @@ npm run format:check  # prettier --check .
 ├── LICENSE                 # CC BY 4.0 — also shipped at ZIP root
 ├── CREDITS                  # author credits — also shipped at ZIP root
 ├── build.ts                # resource-pack builder / zipper
-└── out/                    # build output (gitignored, contains Unix.zip)
+└── out/                    # build output (gitignored, contains cc-unix.zip)
 ```
 
 ### Blockbench workflow
@@ -95,8 +95,8 @@ Files ending in `_blockbench.json` (mostly monitor and modem variants) are autho
 ## Contributing
 
 1. Edit textures under `assets/computercraft/textures/` or models under `assets/computercraft/models/`.
-2. Run `npm run format` and `npm run build`, then test `out/Unix.zip` in-game.
-3. Open a PR against `6ixB/unix-cct-resource-pack`.
+2. Run `npm run format` and `npm run build`, then test `out/cc-unix.zip` in-game.
+3. Open a PR against `6ixB/cc-unix`.
 
 ## Releasing
 

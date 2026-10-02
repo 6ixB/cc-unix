@@ -34,10 +34,10 @@ jobs:
           PACK="${TAG%%-mc*}"
           PACK="${PACK#v}"
           MC="${TAG##*-mc}"
-          SRC="out/unix.zip"
+          SRC="out/cc-unix.zip"
           # Modrinth file convention uses +mc in the filename even though
           # the tag uses -mc (+ is invalid in GitHub tag filter patterns).
-          DEST="out/unix-${PACK}+mc${MC}.zip"
+          DEST="out/cc-unix-${PACK}+mc${MC}.zip"
           if [ ! -f "$SRC" ]; then
             echo "Expected build output not found: $SRC"
             exit 1
@@ -48,5 +48,5 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          files: out/unix-*.zip
+          files: out/cc-unix-*.zip
           generate_release_notes: true
