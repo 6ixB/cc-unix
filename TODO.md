@@ -1,6 +1,6 @@
 # TODO — Improve changelogs
 
-Goal: Add better automated changelogs 
+Goal: Add better automated changelogs
 
 ## Now
 
