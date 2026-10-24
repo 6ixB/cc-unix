@@ -1,4 +1,4 @@
-# AGENTS.md — Unix CC:Tweaked Resource Pack
+# AGENTS.md — CC: Unix CC:Tweaked Resource Pack
 
 Minecraft Java resource pack. Reskins `computercraft` namespace (CC:Tweaked).
 Single builder `build.ts` (TypeScript ESM, Node + archiver). Output `out/cc-unix.zip`.
@@ -65,7 +65,7 @@ Run `npm run format` before every edit. `npm run format:check` must pass before 
 
 ## License / attribution
 
-- CC-BY-4.0 covers original Unix work only. See `LICENSE`.
+- CC-BY-4.0 covers original CC: Unix work only. See `LICENSE`.
 - GreenTech-derived files (gui, printed media, pocket, cable — see `TODO.md` manifest) stay under MIT. Keep `LICENSE` Third-Party notice + file list in sync when touching those files.
 
 ## Git workflow

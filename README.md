@@ -6,7 +6,7 @@
 
 A modern industrial-tech themed resource pack for [ComputerCraft: Tweaked](https://modrinth.com/mod/cc-tweaked).
 
-Unix reskins ComputerCraft's computers, turtles, monitors, and peripherals with a clean, industrial look — dark casings, consistent accent colors, and vanilla-friendly details. The pack aims to align CC: Tweaked textures with the new Advanced Peripherals textures and Mekanism machine blocks, so mixed setups look cohesive.
+CC: Unix reskins ComputerCraft's computers, turtles, monitors, and peripherals with a clean, industrial look — dark casings, consistent accent colors, and vanilla-friendly details. The pack aims to align CC: Tweaked textures with the new Advanced Peripherals textures and Mekanism machine blocks, so mixed setups look cohesive.
 
 <p align="center">
   <img src="gallery/Featured.png" alt="pack overview">
@@ -117,12 +117,18 @@ Keep `package.json` version and the tag's pack version in sync.
 
 ## License
 
-Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the original Unix work. You are free to share and adapt, even commercially, as long as you credit 6ixB. Third-party files derived from ComputerCraft GreenTech remain under MIT — see [LICENSE](LICENSE) Third-Party Notices. See [LICENSE](LICENSE) and [CREDITS](CREDITS).
+Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the original CC: Unix work. You are free to share and adapt, even commercially, as long as you credit 6ixB. Third-party files derived from ComputerCraft GreenTech remain under MIT — see [LICENSE](LICENSE) Third-Party Notices. See [LICENSE](LICENSE) and [CREDITS](CREDITS).
 
 ## Credits
 
 - Author: [6ixB](https://github.com/6ixB)
-- Base mod: ComputerCraft: Tweaked — all block/item IDs and original assets belong to their respective authors.
-- Adapted work: [ComputerCraft GreenTech](https://modrinth.com/resourcepack/computercraft-greentech) by PirateSee (MIT) — GUI textures, printed media, pocket computer and cable textures/models derive from this pack. See LICENSE.
+- Base mod(s):
+  - ComputerCraft: Tweaked by squiddev — all block/item IDs and original assets
+    belong to their respective authors.
+  - Classic Peripherals by AlexDevs — all block/item IDs and original assets
+    belong to their respective authors.
+- Adapted work:
+  - [ComputerCraft GreenTech](https://modrinth.com/resourcepack/computercraft-greentech) by PirateSee (MIT) — GUI textures, printed media, pocket computer and cable textures/models derive from this pack. See LICENSE.
+  - [Create Crafts & Additions](https://modrinth.com/mod/createaddition) by mrh0 (MIT) — copper coil texture for the Classic Peripherals mod is adapted from this mod's texture assets. See LICENSE.
 - Inspiration: [Create: ComputerCraft (CC: Tweaked)](https://www.curseforge.com/minecraft/texture-packs/create-computercraft) by End_Rage — computer, monitor, and cable textures inspired by this pack.
 - AI assistance was used for descriptions and developer tooling. All textures and models are human-created.
