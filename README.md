@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="pack_no_background.png" alt="pack icon" width="200" height="200">
+  <img src="pack.png" alt="pack icon" width="200" height="200">
 </p>
 
 <h1 align="center">CC: Industrialized</h1>
