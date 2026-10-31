@@ -1,7 +1,7 @@
-# AGENTS.md — CC: Unix CC:Tweaked Resource Pack
+# AGENTS.md — CC: Industrialized CC:Tweaked Resource Pack
 
 Minecraft Java resource pack. Reskins `computercraft` namespace (CC:Tweaked).
-Single builder `build.ts` (TypeScript ESM, Node + archiver). Output `out/cc-unix.zip`.
+Single builder `build.ts` (TypeScript ESM, Node + archiver). Output `out/cc-industrialized.zip`.
 No runtime code, no tests beyond format + build + in-game load.
 
 ## Setup
@@ -12,13 +12,13 @@ No runtime code, no tests beyond format + build + in-game load.
 
 ## Commands
 
-| Action       | Command                             |
-| ------------ | ----------------------------------- |
-| Install      | `npm install`                       |
-| Build pack   | `npm run build` → `out/cc-unix.zip` |
-| Clean output | `npm run clean`                     |
-| Format write | `npm run format`                    |
-| Format check | `npm run format:check`              |
+| Action       | Command                                       |
+| ------------ | --------------------------------------------- |
+| Install      | `npm install`                                 |
+| Build pack   | `npm run build` → `out/cc-industrialized.zip` |
+| Clean output | `npm run clean`                               |
+| Format write | `npm run format`                              |
+| Format check | `npm run format:check`                        |
 
 Run `npm run format` before every edit. `npm run format:check` must pass before commit.
 
@@ -27,7 +27,7 @@ Run `npm run format` before every edit. `npm run format:check` must pass before 
 - Copies `assets/`, `pack.mcmeta`, `pack.png`, `LICENSE` into `out/`.
 - Skips `EXCLUDED_FILES` (`.gitignore`, `README.md`, `build.ts`, `tsconfig.json`, `package.json`, `package-lock.json`) and dirs (`out`, `.git`, `node_modules`).
 - Deletes all `*_blockbench.json` from `out/` before zipping.
-- Zips with max compression, then removes intermediates so only `out/cc-unix.zip` remains.
+- Zips with max compression, then removes intermediates so only `out/cc-industrialized.zip` remains.
 - `LICENSE` ships at ZIP root intentionally. Never exclude it.
 - `tsconfig.json` covers `build.ts` only (`strict`, `NodeNext`, `noEmit`).
 
@@ -53,23 +53,23 @@ Run `npm run format` before every edit. `npm run format:check` must pass before 
 
 1. `npm run format:check`
 2. `npm run build`
-3. Load `out/cc-unix.zip` in-game with CC:Tweaked installed, check touched blocks/items/GUIs.
+3. Load `out/cc-industrialized.zip` in-game with CC:Tweaked installed, check touched blocks/items/GUIs.
 4. Confirm no `*_blockbench.json` inside ZIP.
 
 ## Release
 
 - Tags trigger `.github/workflows/release.yml` (`v*-mc*` pattern).
 - Tag format: `v<pack>-mc<mc>` (e.g. `git tag v1.0.0-mc1.21.1`). Tag uses `-mc` because `+` invalid in tag filters.
-- CI builds then renames to Modrinth convention `out/cc-unix-<pack>+mc<mc>.zip`.
+- CI builds then renames to Modrinth convention `out/cc-industrialized-<pack>+mc<mc>.zip`.
 - Keep `package.json` version in sync with tag pack version.
 
 ## License / attribution
 
-- CC-BY-4.0 covers original CC: Unix work only. See `LICENSE`.
+- CC-BY-4.0 covers original CC: Industrialized work only. See `LICENSE`.
 - GreenTech-derived files (gui, printed media, pocket, cable — see `TODO.md` manifest) stay under MIT. Keep `LICENSE` Third-Party notice + file list in sync when touching those files.
 
 ## Git workflow
 
 - `out/`, `node_modules/`, `*.bbmodel`, `.blockbench/` gitignored. Never force-add.
-- Branch, edit under `assets/computercraft/`, format, build, test in-game, open PR against `6ixB/cc-unix`.
+- Branch, edit under `assets/computercraft/`, format, build, test in-game, open PR against `6ixB/cc-industrialized`.
 - Pre-commit hook (husky + lint-staged) auto-runs `prettier --write` on staged `*.{ts,json,md,yml,yaml,mcmeta}`. Do not bypass with `--no-verify`.

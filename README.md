@@ -2,11 +2,11 @@
   <img src="pack_no_background.png" alt="pack icon" width="200" height="200">
 </p>
 
-<h1 align="center">CC: Unix</h1>
+<h1 align="center">CC: Industrialized</h1>
 
 A modern industrial-tech themed resource pack for [ComputerCraft: Tweaked](https://modrinth.com/mod/cc-tweaked).
 
-CC: Unix reskins ComputerCraft's computers, turtles, monitors, and peripherals with a clean, industrial look — dark casings, consistent accent colors, and vanilla-friendly details. The pack aims to align CC: Tweaked textures with the new Advanced Peripherals textures and Mekanism machine blocks, so mixed setups look cohesive.
+CC: Industrialized reskins ComputerCraft's computers, turtles, monitors, and peripherals with a clean, industrial look — dark casings, consistent accent colors, and vanilla-friendly details. The pack aims to align CC: Tweaked textures with the new Advanced Peripherals textures and Mekanism machine blocks, so mixed setups look cohesive.
 
 <p align="center">
   <img src="gallery/Featured.png" alt="pack overview">
@@ -59,11 +59,11 @@ npm install
 npm run build
 ```
 
-This produces `out/cc-unix.zip`. The build script (`build.ts`):
+This produces `out/cc-industrialized.zip`. The build script (`build.ts`):
 
 1. Copies `assets/`, `pack.mcmeta`, `pack.png`, and `LICENSE` into `out/`.
 2. Deletes all `*_blockbench.json` source files (Blockbench working copies kept in-repo but excluded from the pack).
-3. Zips the result to `out/cc-unix.zip` and cleans up intermediate files.
+3. Zips the result to `out/cc-industrialized.zip` and cleans up intermediate files.
 
 Other scripts:
 
@@ -91,7 +91,7 @@ npm run format:check  # prettier --check .
 ├── LICENSE                 # CC BY 4.0 — also shipped at ZIP root
 ├── CREDITS                  # author credits — also shipped at ZIP root
 ├── build.ts                # resource-pack builder / zipper
-└── out/                    # build output (gitignored, contains cc-unix.zip)
+└── out/                    # build output (gitignored, contains cc-industrialized.zip)
 ```
 
 ### Blockbench workflow
@@ -103,8 +103,8 @@ Files ending in `_blockbench.json` (mostly monitor and modem variants) are autho
 ## Contributing
 
 1. Edit textures under `assets/computercraft/textures/` or models under `assets/computercraft/models/`.
-2. Run `npm run format` and `npm run build`, then test `out/cc-unix.zip` in-game.
-3. Open a PR against `6ixB/cc-unix`.
+2. Run `npm run format` and `npm run build`, then test `out/cc-industrialized.zip` in-game.
+3. Open a PR against `6ixB/cc-industrialized`.
 
 ## Releasing
 
@@ -125,7 +125,7 @@ Keep `package.json` version and the tag's pack version in sync.
 
 ## License
 
-Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the original CC: Unix work. You are free to share and adapt, even commercially, as long as you credit 6ixB. Third-party files derived from ComputerCraft GreenTech remain under MIT — see [LICENSE](LICENSE) Third-Party Notices. See [LICENSE](LICENSE) and [CREDITS](CREDITS).
+Licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for the original CC: Industrialized work. You are free to share and adapt, even commercially, as long as you credit 6ixB. Third-party files derived from ComputerCraft GreenTech remain under MIT — see [LICENSE](LICENSE) Third-Party Notices. See [LICENSE](LICENSE) and [CREDITS](CREDITS).
 
 ## Credits
 

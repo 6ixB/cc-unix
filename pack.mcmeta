@@ -2,6 +2,25 @@
   "pack": {
     "pack_format": 34,
     "supported_formats": [3, 34],
-    "description": "A modern industrial-tech themed ComputerCraft."
+    "description": [
+      {
+        "text": "By: ",
+        "bold": true
+      },
+      {
+        "text": "6ixB",
+        "color": "#55a1ff",
+        "bold": true
+      },
+      {
+        "text": "\nA modern industrial-tech themed ComputerCraft",
+        "color": "gray",
+        "bold": false,
+        "italic": false,
+        "underlined": false,
+        "strikethrough": false,
+        "obfuscated": false
+      }
+    ]
   }
 }
